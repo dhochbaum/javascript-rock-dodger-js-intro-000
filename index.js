@@ -162,6 +162,11 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
 
+   if ([LEFT_ARROW, RIGHT_ARROW].indexOf(code) > -1) {
+     e.preventDefault()
+     e.stopPropagation()
+   }
+
    if (e.which === LEFT_ARROW) {
      moveDodgerLeft()
    }
