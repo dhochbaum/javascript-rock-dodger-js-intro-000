@@ -37,7 +37,7 @@ function checkCollision(rock) {
     const rockRightEdge = rockLeftEdge + 20;
 
 
-//    if (false 
+//    if (false
 /**
                * Think about it -- what's happening here?
                * There's been a collision if one of three things is true:
